@@ -2,5 +2,11 @@
     grid-area: text;
     display: flex;
     flex-direction: column;
-    gap: 26px 0px;    
+    gap: 27px 0px;    
+}
+
+@media screen and (max-width: 425px) {
+    .place__text{
+        gap: 25px;
+    }
 }

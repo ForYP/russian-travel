@@ -12,6 +12,7 @@
     text-decoration: none;
     min-height: 740px;
     background-image: url(../../../images/railway_tracks.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }

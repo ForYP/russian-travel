@@ -4,11 +4,20 @@
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
+    margin: 18px 18px 6px 0px;
 }
-.header__link:first-child{
-    margin-right: 18px;
+.header__link:last-child{
+    margin-right: 0px;
 }
 .header__link:hover{
     color: #e5e5e57f;
     transition: .8s ease-in-out;
+}
+
+@media screen and (max-width: 425px) {
+    .header__link{
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 18px 7px 0;
+    }
 }
