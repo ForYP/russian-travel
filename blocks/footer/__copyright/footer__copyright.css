@@ -1,0 +1,19 @@
+.footer__copyright{
+    justify-self: end;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 766px) {
+    .footer__copyright{
+        justify-self: normal;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer__copyright{
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

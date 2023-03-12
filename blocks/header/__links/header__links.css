@@ -1,0 +1,9 @@
+.header__links{
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 425px) {
+    .header__links{
+        align-self: auto;
+    }
+}
