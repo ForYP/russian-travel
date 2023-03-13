@@ -6,6 +6,6 @@
     color: #FFFFFF;
 }
 .place__link:hover{
-    color: #e5e5e57f;
+    color: rgba(255, 255, 255, 0.8);
     transition: .8s ease-in-out;
 }
